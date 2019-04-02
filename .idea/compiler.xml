@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="configserver" />
+        <module name="consumer" />
+        <module name="eureka_client" />
+        <module name="eureka_client2" />
+        <module name="eureka_server" />
+        <module name="fein" />
+        <module name="hytrix" />
+        <module name="resttemplate" />
+        <module name="ribon" />
+        <module name="zipkinclient" />
+        <module name="zipkinserver" />
+        <module name="zuul" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="cinfigclient" options="-parameters" />
+      <module name="configserver" options="-parameters" />
+      <module name="consumer" options="-parameters" />
+      <module name="eureka_client" options="-parameters" />
+      <module name="eureka_client2" options="-parameters" />
+      <module name="eureka_server" options="-parameters" />
+      <module name="fein" options="-parameters" />
+      <module name="hytrix" options="-parameters" />
+      <module name="resttemplate" options="-parameters" />
+      <module name="ribon" options="-parameters" />
+      <module name="springcloud1" options="-parameters" />
+      <module name="zipkinclient" options="-parameters" />
+      <module name="zipkinserver" options="-parameters" />
+      <module name="zuul" options="-parameters" />
+    </option>
+  </component>
+</project>
